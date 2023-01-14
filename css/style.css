@@ -1,0 +1,94 @@
+body{
+
+font-family: 'Poppins', sans-serif;
+margin: 0;
+background-color: #003366;
+
+display: flex;
+justify-content: center;
+flex-direction: column;
+height: 100vh; /*view heigth (unidade baseada na altura do navegador*/
+}
+
+.container{
+
+    max-width: 1000px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 100px 50px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    column-gap: 60px;
+    align-items: center; /*centraliza*/
+}
+
+h1{
+    font-size: 32px;
+    color: #222222;
+    margin-bottom: 0;
+}
+
+p{
+    margin-top: 0;
+    font-size: 14px;
+    color: #666666;
+ }
+
+ label{
+    font-size: 12;
+    font-weight: 700;
+    color: #666666;
+ }
+
+
+ input{
+   display: block;
+   width: 100%;
+   height: 36px;
+   border-radius: 5px;
+   border: 1px solid #cccccc;
+   box-sizing: border-box; 
+ }
+
+ /* formatando as divs que estão DENTRO no formulário*/
+
+form div{
+    margin-bottom: 20px;
+} 
+
+
+form a{
+color: #003366;
+font-size: 12px;
+}
+
+
+.link-senha{
+    text-align: right;
+}
+
+button {
+    width: 100%;
+    height: 38px;
+    background-color: #003366;
+    color: white;
+    border: nome;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #222222;
+}
+
+.conteudo{
+    width: 440px;
+}
+
+.rodape{
+    text-align: center;
+    color: #cccccc;
+    margin-top: 10px;
+}
+
